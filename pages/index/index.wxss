@@ -1,0 +1,72 @@
+.blue-group{
+  height: 250rpx;
+  width:100%;
+  background:#1d81d2
+}
+.blue-group .top-group{
+  height: 55rpx;
+  display: flex;
+  justify-content: space-around;
+  padding: 20rpx;
+}
+.blue-group .top-group .search-group{
+  flex: 1;
+  background:#fcfffe;
+  border-radius: 4px;
+
+}
+.holder{
+  color: #555;
+  padding-left: 20rpx;
+  padding-top:6rpx;
+  /* line-height: 55rpx; */
+}
+.blue-group .top-group .more-group{
+  display: flex;
+  width:125rpx;
+  justify-content: space-evenly;
+}
+.blue-group .top-group .more-group .more-img{
+  width: 50rpx;
+  height: 50rpx;
+}
+.blue-group .menu-group{
+  display: flex;
+  justify-content: space-around;
+  margin-top:10rpx;
+  margin-bottom: 20rpx;
+}
+.blue-group .menu-group .top-menu{
+  width:100rpx;
+  height: 120rpx;
+  text-align: center;
+  /* flex-wrap: wrap; */
+}
+.blue-group .menu-group .top-menu .top-menu-img{
+  width: 75rpx;
+  height: 75rpx;
+ 
+}
+.blue-group .menu-group .top-menu text{
+  color:white;
+}
+.white-group{
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+   /* margin-top: 20rpx; */
+  align-items:center;
+}
+.white-group .bottom-menu{
+  height: 140rpx;
+  width:120rpx;
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+  padding: 20rpx;
+  text-align: center;
+}
+.image{
+  width: 100rpx;
+  height: 100rpx;
+}
